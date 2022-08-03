@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/test-folder/style.css">
+    <link rel="stylesheet" href="/Todo-List/style.css">
 </head>
 <body>
-    <h1>Welcome to my web page</h1>
+    <div class="container">
+        <h1>DOM JS List</h1>
+        <header>
+            <input type="text" id="new-todo-input">
+            <button id="add-new-todo-btn">Add Todo</button>
+        </header>
+        <main>
+            <div class="todo-list-header">
+                <input type="checkbox" id="check-all-todos">
+                <span>Todo Name</span>
+                <span>Action</span>
+            </div>
+            <ul id="todo-list">
+                <!-- <li class="single-todo">
+                    <input type="checkbox" class="single-todo-check">
+                    <p class="single-todo-text">Go Shopping</p>     //needs to be hidden when edit btn clicked
+                    <input type="text"class="edit-single-todo-text"> //needs to be shown when edit btn clicked
+                    <button class="done-btn">Done</button>   //needs to be shown when edit btn clicked
+                    <button class="edit-btn">Edit</button>   //needs to be hidden when edit btn clicked
+                    <button class="delete-btn">Delete</button>
+                </li> -->
+            </ul>
+            
+        </main>
+    </div>
+    <script src="/Todo-List/script.js"></script>
 </body>
 </html>
